@@ -72,7 +72,7 @@ namespace TicTacToe
                 )
             {
                 CPUTimer.Stop();
-                MessageBox.Show("Tebrikler! Sen Kazandýn!" + " " + username);
+                MessageBox.Show("Tebrikler! Sen Kazandýn" + " " + username);
                 playerWinCount++;
                 label1.Text = username + ": " + playerWinCount;
                 RestartGame();
