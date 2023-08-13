@@ -87,7 +87,7 @@ namespace TicTacToe
                 || button3.Text == "O" && button6.Text == "O" && button9.Text == "O")
             {
                 CPUTimer.Stop();
-                MessageBox.Show($"Hay Aksi {username} kaybettin! Bilgisayar Kazandý!");
+                MessageBox.Show($"Maalesef {username} kaybettin! Bilgisayar Kazandý!");
                 CPUWinCount++;
                 label2.Text = "Bilgisayar: " + CPUWinCount;
                 RestartGame();
